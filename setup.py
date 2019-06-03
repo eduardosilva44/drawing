@@ -1,9 +1,9 @@
 from distutils.core import setup
-setup(name='hello',
+setup(name='drawing',
       version='1.0',
-      description='Hello Distribution Module',
-      author='Your Name',
-      author_email='Your Email',
+      description='Drawing Distribution Package',
+      author='Eduardo Silva',
+      author_email='eduardonobresilva@gmail.com',
       url='The URL project - github for example',
-      py_modules=['hello'],
+      packages=['drawing'],
      )
